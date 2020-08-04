@@ -593,6 +593,10 @@ h6 {
   color: #009fc6;
 } */
 
+.location {
+  margin-right: 84vh;
+}
+
 #mobile-nav ul li li {
   padding-left: 30px;
 }

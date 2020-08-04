@@ -96,16 +96,24 @@
 
                 <button class="buscar"> 
                   <a>Buscar</a>
-                </button>
+                </button><br><br>
+
+                <a class="ion-ios-navigate"></a>
+
+                <a class="location"
+                onclick="getLocation()">
+                  Usar minha localização
+                
+              </a>
 
 
 
-              </div>
+              
 
                 <!-- <div class="icon"><i class="ion-search"></i></div>
 
                 <a href="#services" class="ion-search btn-get-started scrollto" >Insira seu endereço</a> -->
-
+                    </div>
               </div>
             </div>   
  
@@ -830,22 +838,6 @@
 
   <!-- Template Main Javascript File -->
   <script src="js/main.js"></script>
-
-  <script>
-    var x = document.getElementById("demo");
-    function getLocation() {
-      if (navigator.geolocation) {
-        navigator.geolocation.getCurrentPosition(showPosition);
-      } else {
-        x.innerHTML = "Geolocation is not supported by this browser.";
-      }
-    }
-    
-    function showPosition(position) {
-      x.innerHTML = "Latitude: " + position.coords.latitude +
-      "<br>Longitude: " + position.coords.longitude;
-    }
-    </script>
 </body>
 
 
