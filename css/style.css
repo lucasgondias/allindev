@@ -613,7 +613,7 @@ h6 {
 
 .modals {
   background: white;
-  width: 60%;
+  width: 80%;
   min-width: 300px;
   padding: 40px;
   border: 1px solid #009fc6;
@@ -640,6 +640,16 @@ h6 {
   box-shadow: 0 4px 4px 0 rgba(0,0,0,0.2);
 }
 
+.buscar-endereco-modal {
+  width: 40vw;
+}
+
+.my-location {
+  background: none;
+  border: none;
+  cursor: pointer;
+  text-decoration: none;
+}
 #mobile-nav ul li li {
   padding-left: 30px;
 }

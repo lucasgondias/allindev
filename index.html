@@ -77,43 +77,22 @@
     Intro Section
   ============================-->
   <section id="intro">
-    
-  
-            <!-- <div class="carousel-background"><img src="img/intro-carousel/1.jpg" alt=""></div> -->
             <div class="carousel-container">
               <div class="carousel-content">
 
-                <h1>A revolução da <strong>lavagem</strong> na palma da sua mão</h1>
+                <h1>A revolução da <strong>lavagem</strong> na palma da sua mão
+                </h1>
 
                 <p>Descubra como é fácil e barato lavar suas roupas</p>
 
                 <div id="button-initial-search">
-                <!-- <button id="search-address"> 
-                  <a class="ion-search"></a>
-                  
-                    <a>Buscar endereço e número </a>
 
-                </button> -->
-
-                <button class="buscar" onclick="abrirModal()"> 
-                  <a>Buscar endereço e número</a>
+                  <button class="buscar" onclick="abrirModal()"> 
+                    <a>Buscar endereço e número</a>
                 </button>         
-              </a>
-
-
-             
-
+                    
+                </div>
               
-
-              
-              
-
-              
-
-                <!-- <div class="icon"><i class="ion-search"></i></div>
-
-                <a href="#services" class="ion-search btn-get-started scrollto" >Insira seu endereço</a> -->
-                    </div>
               </div>
             </div>   
  
@@ -822,12 +801,16 @@
   <div id="modal-popup" class="modal-container">
     <div class="modals">
       <button class="fechar" onclick="fecharModal()">x</button>
-        <img class="location" src="/img/location.svg" alt=""><br>
+        <img class="location" src="/img/location.svg" alt=""><br><br><br>
       <h3>Onde podemos buscar suas roupas?</h3><Br>
 
         <form class="form-modal">
-          <input class="buscar-endereco-modal" type="text" placeholder="Buscar endereço e número">
-     </form>
+          <input class="buscar-endereco-modal" type="text" placeholder="Digite seu CEP ou endereço">
+     </form><br>
+     
+     <a class="ion-ios-navigate"></a>
+      <button class="my-location" onclick="getLocation()">Usar minha localização
+      </button>
 
 </div>
 </div>
