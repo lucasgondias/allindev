@@ -1,17 +1,38 @@
 //Obter localização do pc
-var x = document.getElementById("demo");
-function getLocation() {
-  if (navigator.geolocation) {
-    navigator.geolocation.getCurrentPosition(showPosition);
-  } else {
-    x.innerHTML = "Geolocation is not supported by this browser.";
-  }
+// var x = document.getElementById("demo");
+// function getLocation() {
+//   if (navigator.geolocation) {
+//     navigator.geolocation.getCurrentPosition(showPosition);
+//   } else {
+//     x.innerHTML = "Geolocation is not supported by this browser.";
+//   }
+// }
+
+// function showPosition(position) {
+//   x.innerHTML = "Latitude: " + position.coords.latitude +
+//   "<br>Longitude: " + position.coords.longitude;
+// };
+
+
+//modal
+// function iniciaModal(modalID) {
+//   const modals = document.getElementById(modalID);
+//   modals.classList.add('mostrar');
+// }
+
+// const botao = document.getElementById('.logo');
+// botao.addEventListener('click', () => iniciaModal('modal-popup'));
+
+// const busca = document.querySelector('.buscar');
+// busca.addEventListener('click', () => iniciaModal('modal-popup'));
+
+function abrirModal() {
+    document.getElementById('modal-popup').style.top = "0";
+}
+function fecharModal() {
+  document.getElementById('modal-popup').style.top = "-100%";
 }
 
-function showPosition(position) {
-  x.innerHTML = "Latitude: " + position.coords.latitude +
-  "<br>Longitude: " + position.coords.longitude;
-}
 
 
 

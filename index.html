@@ -32,6 +32,8 @@
 
 <body>
 
+  
+
   <!--==========================
     Header
   ============================-->
@@ -75,6 +77,7 @@
     Intro Section
   ============================-->
   <section id="intro">
+    
   
             <!-- <div class="carousel-background"><img src="img/intro-carousel/1.jpg" alt=""></div> -->
             <div class="carousel-container">
@@ -85,28 +88,25 @@
                 <p>Descubra como é fácil e barato lavar suas roupas</p>
 
                 <div id="button-initial-search">
-                <button id="search-address">
-                  <!-- <a href="#services" 
-                  class="" btn-get-started scrollto" > -->
+                <!-- <button id="search-address"> 
                   <a class="ion-search"></a>
                   
-                    <a>Insira seu endereço </a>
+                    <a>Buscar endereço e número </a>
 
-                </button>
+                </button> -->
 
-                <button class="buscar"> 
-                  <a>Buscar</a>
-                </button><br><br>
-
-                <a class="ion-ios-navigate"></a>
-
-                <a class="location"
-                onclick="getLocation()">
-                  Usar minha localização
-                
+                <button class="buscar" onclick="abrirModal()"> 
+                  <a>Buscar endereço e número</a>
+                </button>         
               </a>
 
 
+             
+
+              
+
+              
+              
 
               
 
@@ -813,7 +813,28 @@
         Designed by <a>Lavou Dev Team</a>
       </div>
     </div>
+
+   
+  
+  
   </footer><!-- #footer -->
+
+  <div id="modal-popup" class="modal-container">
+    <div class="modals">
+      <button class="fechar" onclick="fecharModal()">x</button>
+        <img class="location" src="/img/location.svg" alt=""><br>
+      <h3>Onde podemos buscar suas roupas?</h3><Br>
+
+        <form class="form-modal">
+          <input class="buscar-endereco-modal" type="text" placeholder="Buscar endereço e número">
+     </form>
+
+</div>
+</div>
+
+
+
+
 
   <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
   <!-- Uncomment below i you want to use a preloader -->

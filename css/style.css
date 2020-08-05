@@ -575,7 +575,7 @@ h6 {
 
 .buscar {  
   margin-left: 20px;
-  width: 20%;
+  width: 50%;
   height: 8vh;
   text-align: center;
   background-color: #009ec6c9;
@@ -593,7 +593,52 @@ h6 {
   color: #009fc6;
 } */
 
+.location {
+  width: 20%;
+}
 
+.modal-container {
+  width: 100vw;
+  height: 100vh;
+  background: rgba(0,0,0,.5);
+  position: fixed;
+  top: -100%;
+  left: 0px;
+  z-index: 2000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.modals {
+  background: white;
+  width: 60%;
+  min-width: 300px;
+  padding: 40px;
+  border: 1px solid #009fc6;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px rgba(0,0,0,.1);
+  position: relative;
+  justify-content: space-evenly;
+  text-align: center;
+}
+
+.fechar {
+  font-size: 1.2em;
+  position: absolute;
+  top: -30px;
+  right: -30px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: 4px solid white;
+  background: white;
+  color:  #009fc6;
+  font-family: Poppins;
+  cursor: pointer;
+  box-shadow: 0 4px 4px 0 rgba(0,0,0,0.2);
+}
 
 #mobile-nav ul li li {
   padding-left: 30px;
@@ -1354,7 +1399,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 /* Contact Section
 --------------------------------*/
-
+/* 
 #contact {
   padding: 60px 0;
 }
@@ -1397,9 +1442,9 @@ body.mobile-nav-active #mobile-nav-toggle {
 #contact .contact-phone,
 #contact .contact-email {
   margin-bottom: 20px;
-}
+} */
 
-#contact .form #sendmessage {
+/* #contact .form #sendmessage {
   color: #18d26e;
   border: 1px solid #18d26e;
   display: none;
@@ -1452,7 +1497,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #contact .form button[type="submit"]:hover {
   background: #13a456;
-}
+} */
 
 /*--------------------------------------------------------------
 # Footer
@@ -1593,7 +1638,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   margin-bottom: 30px;
 }
 
-#footer .footer-top .footer-newsletter input[type="email"] {
+/* #footer .footer-top .footer-newsletter input[type="email"] {
   border: 0;
   padding: 6px 8px;
   width: 65%;
@@ -1612,7 +1657,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #footer .footer-top .footer-newsletter input[type="submit"]:hover {
   background: #13a456;
-}
+} */
 
 #footer .copyright {
   text-align: center;
