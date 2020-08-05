@@ -642,6 +642,13 @@ h6 {
 
 .buscar-endereco-modal {
   width: 40vw;
+  height: 8vh;
+  background-color: #eeeded;
+  border-radius: 5px;
+  outline: 0;
+  box-shadow: none;
+  border:none;
+  padding: 20px;
 }
 
 .my-location {
@@ -649,7 +656,9 @@ h6 {
   border: none;
   cursor: pointer;
   text-decoration: none;
+
 }
+
 #mobile-nav ul li li {
   padding-left: 30px;
 }
